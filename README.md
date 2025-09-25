@@ -117,12 +117,13 @@ Claude Desktop에서 다음 기능을 사용할 수 있습니다:
 - **문서 검색**: `"내 문서에서 [검색어]에 대한 정보를 찾아줘"` 형식으로 사용
 - **텍스트 처리**: Claude에 문서 요약, 키워드 추출, 번역 등을 요청
 
-## (참고)
-판다스 스튜디오
-https://www.youtube.com/watch?v=qdwMosgAVUU&list=PL5bzmUGXvZNTX5O5mmuUgC4KqU5mFMZLz&index=1
-
 ### 예시 프롬프트:
 
 - `"내 문서에서 MCP 프로토콜에 관한 내용을 찾아줘"`
 - `"찾은 내용을 요약해줘"`
 - `"이 내용에서 중요한 키워드를 추출해줘"`
+
+
+### (참고)
+- 판다스 스튜디오
+- https://www.youtube.com/watch?v=qdwMosgAVUU&list=PL5bzmUGXvZNTX5O5mmuUgC4KqU5mFMZLz&index=1
