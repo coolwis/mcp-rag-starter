@@ -26,12 +26,13 @@
    ```
 
 2. **가상 환경 생성 및 활성화**:
-
+* Windows, 커맨드에서 실행해야 잘 됨
+  
    ```bash
    uv venv
    source .venv/bin/activate  # Linux/Mac
    # 또는
-   .venv\Scripts\activate  # Windows
+   .venv\Scripts\activate  # Windows, 커맨드에서 실행해야 잘 됨
    ```
 
 3. **의존성 설치**:
@@ -42,9 +43,14 @@
    ```bash
    pip install -e .
    ```
-
+  
    ```
    uv sync
+   ```
+
+   ```
+   uv add "mcp[cli]"
+   mcp run main.py
    ```
 ### chroma-hnswlib  install error
 chroma-hnswlib==0.7.6` error =>먼저 visual c++라이브러리 설치시 해결됨
@@ -70,6 +76,10 @@ Microsoft C++ Build Tools
 
 ```bash
 uv python main.py
+```
+
+```
+mcp run main.py ??
 ```
 
 - 실행하면 기본적으로 `http://127.0.0.1:8000`에서 MCP 서버가 시작됩니다.
@@ -106,6 +116,8 @@ OPENAI_API_KEY=your_openai_api_key
         }
       }
     }
+    ## full path
+    "command": "C:\\Users\\coolwis\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\uv.exe",
     ```
 
     **중요**:
@@ -133,6 +145,9 @@ Claude Desktop에서 다음 기능을 사용할 수 있습니다:
 - `"내 문서에서 MCP 프로토콜에 관한 내용을 찾아줘"`
 - `"찾은 내용을 요약해줘"`
 - `"이 내용에서 중요한 키워드를 추출해줘"`
+
+### claude 실행 예시
+<img width="1474" height="537" alt="image" src="https://github.com/user-attachments/assets/42728d2d-8ce8-4668-a818-f655ec163338" />
 
 
 ### (참고)
