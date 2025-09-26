@@ -43,6 +43,17 @@
    pip install -e .
    ```
 
+   ```
+   uv sync
+   ```
+### chroma-hnswlib  install error
+chroma-hnswlib==0.7.6` error =>먼저 visual c++라이브러리 설치시 해결됨
+```
+Microsoft C++ Build Tools
+독립 실행형 MSVC 컴파일러, 라이브러리 및 스크립트
+```
+
+
 ## 주요 의존성 패키지
 
 이 프로젝트는 다음 주요 패키지에 의존합니다:
